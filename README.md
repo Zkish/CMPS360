@@ -1,0 +1,2 @@
+# CMPS360
+CMPS360 Class
