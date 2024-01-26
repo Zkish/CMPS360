@@ -38,9 +38,9 @@ public class Assign2{
                 ++correct;
                 JOptionPane.showMessageDialog(null, "Correct!");
             } else {
-                incorrectAnswers.append("Question: ").append(questions[x]).append("\n");
-                incorrectAnswers.append("Your Answer: ").append(ans).append("\n");
-                incorrectAnswers.append("Correct Answer: ").append(answers[x]).append("\n\n");
+                incorrectAnswers.append("The Question: ".toUpperCase()).append(questions[x]).append("\n");
+                incorrectAnswers.append("Your Answer: ".toUpperCase()).append(ans).append("\n");
+                incorrectAnswers.append("Correct Answer: ".toUpperCase()).append(answers[x]).append("\n\n");
 
                 JOptionPane.showMessageDialog(null, "Incorrect! The correct answer is " + answers[x]);
             }
