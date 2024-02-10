@@ -1,0 +1,15 @@
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/bin/Debug/net8.0/Module4
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/bin/Debug/net8.0/Module4.deps.json
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/bin/Debug/net8.0/Module4.runtimeconfig.json
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/bin/Debug/net8.0/Module4.dll
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/bin/Debug/net8.0/Module4.pdb
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/obj/Debug/net8.0/Module4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/obj/Debug/net8.0/Module4.AssemblyInfoInputs.cache
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/obj/Debug/net8.0/Module4.AssemblyInfo.cs
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/obj/Debug/net8.0/Module4.csproj.CoreCompileInputs.cache
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/obj/Debug/net8.0/Module4.sourcelink.json
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/obj/Debug/net8.0/Module4.dll
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/obj/Debug/net8.0/refint/Module4.dll
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/obj/Debug/net8.0/Module4.pdb
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/obj/Debug/net8.0/Module4.genruntimeconfig.cache
+/Users/zkish/Desktop/StartPage/CMPS360/Module4/obj/Debug/net8.0/ref/Module4.dll
