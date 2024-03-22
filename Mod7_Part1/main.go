@@ -1,35 +1,26 @@
 package main
 
 import (
-	""
+	"bufio"
+	"fmt"
+	"os"
 )
 
-// // sestting up API
-// func main() {
-// 	http.HandleFunc("/", Handler)
-// 	http.ListenAndServe(":3000", nil)
-// }
+func main() {
+	// making questions into an array of strings to assist the for loop
+	questions := []string{"What is Your Dream Job?", "Where is your perfect vacation spot?", "ever wanted to be a treasure hunter?"}
+	answers := make([]string, len(questions))
 
-// func Handler(w http.ResponseWriter, r *http.Request) {
-// 	f, _ := os.Open("./brewery.txt")
-// 	io.Copy(w, f)
-// }
-
-// func main() {
-// 	// Get User Input
-// 	fmt.Println("what is your favorite brewery")
-// 	in := bufio.NewReader(os.Stdin)
-// 	s, _ := in.ReadString('\n')
-// 	s = strings.TrimSpace(s)
-// 	s = strings.ToUpper(s)
-// 	fmt.Println(s + "!")
-// }
-
-//	var vehicle string = "Pontiac"
-//	fmt.Println("my favorite car is: " + vehicle)
-//
-//	var costOfVehicle int = 5000
-//	fmt.Println(costOfVehicle)
-//
-//	d := 4.565
-//	fmt.Println(d)
+	reader := bufio.NewReader(os.Stdin)
+	// loop to ask the questions
+	for i, question := range questions {
+		fmt.Println(question)
+		answer, _ := reader.ReadString('\n')
+		answers[i] = answer
+	}
+	// loop to output the answers to questions
+	fmt.Println("\nAnswers:")
+	for i, answer := range answers {
+		fmt.Printf("%s: %s", questions[i], answer)
+	}
+}
