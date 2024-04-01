@@ -12,6 +12,22 @@ func main() {
 			<html>
 			<head>
 			<title>ABOUT PAGE</title>
+			<style>
+			p {
+				color: slategrey;
+				text-align: center;
+			}
+
+			h1 {
+				color: red;
+				text-align: center;
+			}
+
+			h2 {
+				color: green;
+				text-align: center;
+			}
+			</style>
 			</head>
 			<body>
 			<h1>ABOUT ME:</h1>
@@ -28,6 +44,17 @@ func main() {
 			<html>
 			<head>
 			<title>ABOUT PAGE</title>
+			<style>
+			p {
+				color: red;
+				text-align: center;
+			}
+
+			h1 {
+				color: green;
+				text-align: center;
+			}
+			</style>
 			</head>
 			<body>
 			<h1>MY HOBBIES:</h1>
