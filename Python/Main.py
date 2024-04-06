@@ -36,9 +36,9 @@ def reverseString():
     print(f"The reverse of {string} is {reverse}")
     return
 
-# EXECUTED CODE
-Rectangle()
-Even_Odd()
-MaxValue()
-Factorial()
+# EXECUTED CODE : uncomment to view other things
+# Rectangle()
+# Even_Odd()
+# MaxValue()
+# Factorial()
 reverseString()
